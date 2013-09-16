@@ -1,0 +1,148 @@
+/* Text
+================================================*/
+p.bold, span.bold, a.bold {
+	font-weight: bold;
+	}
+
+/* listan
+================================================*/
+.groupsheader {
+	background-color: #003882;
+	width: 629px;
+	padding-left: 20px;
+	height: 18px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 3px;
+	border-top: 2px solid #b0d4ec ;
+	}
+
+.listobjekt {
+	background-color: #f3f8fc;
+	margin-top: 2px;
+	width: 629px;
+	border-bottom: 2px solid #003882 ;
+	}
+
+.listnumber {
+	 background-color: #b0d4ec;
+	 border-bottom: 2px solid #f3f8fc;
+	 width: 629px;
+	 height: 15px;
+	}
+.listnumber img {
+	float:left;
+	margin: 2px 6px 0px 2px;
+	}
+
+.listnumber p, .listobjekt p {
+	margin: 0 0 0 5px;
+	}
+	
+.readabook a {
+	margin: 6px 0 2px 0px;
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	font-weight: bold;
+	width: 99%;
+	text-align: right;
+	}
+	
+/* Lander & Nationer
+================================================*/
+#countries {
+	width: 270px;
+	height: 226px;
+	border-left: 1px solid #b0d4ec;
+	border-right: 1px solid #b0d4ec;
+	padding-left: 18px;
+	float: left;
+	}
+
+
+#countries ul li a, #continents ul li a, #groupmembers ul li a {
+	text-decoration: none;
+	color: #000000;
+	}
+	
+#countries ul li a:hover, #continents ul li a:hover, #groupmembers ul li a:hover {
+	text-decoration: underline;
+	}
+
+#countries ul li, #continents ul li, #groupmembers ul li {
+	float: left;
+	width: 90px;
+	margin: 0;
+	padding: 0;
+	}
+
+#countries ul, #continents ul, #groupmembers ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+
+#countries br {
+	}
+
+#continents {
+	width: 100px;
+	float: left;
+	}
+
+#companylist {
+	width: 38em;
+	float: left;
+}
+
+#companylist ul li a {
+	text-decoration: none;
+	color: #999999;
+}
+
+#companylist ul li a:hover {
+	color: #000000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#companylist ul li{
+	width: 19em;
+	margin: 0;
+	padding-top: 1px;
+}
+
+#companylist ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.innerinfobox {
+	background-color:#d8e8f7; 
+	width: 601px;
+	padding: 2px 5px 2px 5px;
+	margin-left: 9px; 
+	margin-top: 5px;
+	}
+
+a.innerinfo:link, a.innerinfo:visited, a.innerinfo:active {
+	color:#000000; text-decoration: none;
+	}
+a.innerinfo:hover {color:#000000; text-decoration: underline;}
+
+.outerinfobox {
+	background-color:#b0d4ec; 
+	padding-top: 5px; 
+	padding-bottom: 5px;
+	}
+
+span.spanthumb {
+	margin:0;
+	padding:0;
+	vertical-align:middle;
+	color:#999999;
+	}

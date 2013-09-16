@@ -1,0 +1,408 @@
+/* Text
+================================================*/
+p.bold, span.bold, a.bold {
+	font-weight: bold;
+	}
+	
+/* Other
+================================================*/
+#demobanner {
+	width: 196px;
+	height: 196px;
+	position: absolute;
+	top: 277px;
+	left: 608px;
+	z-index: 99;
+	}
+	
+#mainwin {
+	position: absolute;
+	width: 550px;
+	height: 380px;
+	background-color: #ffffff;
+	top: 0;
+	left: 0;
+	margin-left: auto;
+  margin-right: auto;
+	display: none;
+	z-index: 200000;
+	border: 2px solid #243f8f;
+	}
+
+#mainwin #mainwin_top
+	{
+		height: 18px;
+		width: 100%;
+		background-color: #ffffff;
+	}
+
+#mainwin #mainwin_top #mainwin_top_title
+	{
+		float:left;
+		font-family: Arial;
+		font-size: 12px;
+		font-weight: bold;
+		padding-left: 1px;
+	}
+
+#mainwin #mainwin_top #mainwin_top_close
+	{
+		float:right;
+		padding-top: 1px;
+		padding-right: 1px;
+	}
+
+#mainwin #mainwin_top #mainwin_top_close a
+	{
+	}
+
+#mainwin #mainwin_top #mainwin_top_close a img
+	{
+		border-width: 0px;
+		height: 16px;
+	}
+
+#mainwin #mainwin_content
+	{
+		text-align: center;
+	}
+#mainwin_content p {
+	font-size: 14px;
+	color: #243f8f;
+	}
+
+#bg	{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/back.png);
+	z-index: 100000;
+}
+
+/* listan
+================================================*/
+.groupsheader {
+	background-color: #003882;
+	width: 629px;
+	padding-left: 20px;
+	height: 18px;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	padding-top: 3px;
+	border-top: 2px solid #b0d4ec ;
+	}
+
+.listobjekt {
+	background-color: #f3f8fc;
+	margin-top: 2px;
+	width: 629px;
+	border-bottom: 2px solid #003882 ;
+	}
+
+.listnumber {
+	 background-color: #b0d4ec;
+	 border-bottom: 2px solid #f3f8fc;
+	 width: 629px;
+	 height: 15px;
+	}
+.listnumber img {
+	float:left;
+	margin: 2px 6px 0px 2px;
+	}
+
+.listnumber p, .listobjekt p {
+	margin: 0 0 0 5px;
+	}
+	
+.readabook a {
+	margin: 6px 0 2px 0px;
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	font-weight: bold;
+	width: 99%;
+	text-align: right;
+	}
+
+ .countryAreaLoading {
+   position: absolute;
+	 width: 270px;
+	 height: 100px;
+	 float: left;
+   background-color: #ffffff;
+   z-index: 1;
+ }
+ 
+ .countryAreaInternal {
+	overflow: hide;
+	position: relative;
+	z-index: 0;
+	margin: 0px;
+	padding: 0px;
+  }
+  
+ .groupsAreaLoading {
+   position: absolute;
+   width: 100%;
+	 float: left;
+   background-color: #ffffff;
+   z-index: 1;
+ }
+ 
+ .groupsAreaInternal {
+	overflow: hide;
+	position: relative;
+	z-index: 0;
+	margin: 0px;
+	padding: 0px;
+  }
+
+/* Länder & Nationer
+================================================*/
+
+#countries {
+	width: 270px;
+	height: 100px;
+	border-left: 1px solid #b0d4ec;
+	border-right: 1px solid #b0d4ec;
+	background-color: #ffffff;
+	padding-left: 18px;
+	float: left;
+	}
+
+
+#countries ul li a, #continents ul li a {
+	text-decoration: none;
+	color: #000000;
+	}
+	
+#countries ul li a:hover, #continents ul li a:hover {
+	text-decoration: underline;
+	}
+
+#countries ul li, #continents ul li {
+	float: left;
+	width: 90px;
+	margin: 0;
+	padding: 0;
+	}
+
+#countries ul, #continents ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	}
+
+#countries br {
+	}
+
+#continents {
+	width: 100px;
+	float: left;
+	}
+
+.innerinfobox {
+	background-color:#d8e8f7; 
+	width: 601px;
+	padding: 2px 5px 2px 5px;
+	margin-left: 9px; 
+	margin-top: 5px;
+	}
+
+.outerinfobox {
+	background-color:#b0d4ec; 
+	padding-top: 5px; 
+	padding-bottom: 5px;
+	}
+/* Text
+================================================*/
+#top #parts2{
+	font-size:10px;
+	font-family: Arial, Helvetica, Sans-Serif;
+}
+
+#top #parts2 form#login input#Submit{
+	font-size:10px;	
+}
+
+#top #parts2 form#login div label{	
+	font-size:9px
+}
+	
+	
+/* Menyn
+================================================*/
+#top #holder2 {
+	margin-left:142px;
+	background-image:url(../images/ny_top.jpg);
+	background-repeat:no-repeat;
+	padding-left:13px;
+}
+
+#top #mainnav2 {
+	background-repeat:no-repeat;
+	background-color:#b0d4ec;
+	padding-left:5px;
+	width:643px;
+	clear:both;
+	overflow:hidden;
+	}
+	
+#subs01{
+	background-image:url(../images/ny_menusub_bg2.jpg);
+	background-repeat:no-repeat;
+	padding-left:20px;
+	height:33px;
+	width:628px;
+	clear:both;
+	overflow:hidden	
+	}
+	
+#subs01extra {
+	background-color: #d7e9f7;
+	padding-left:20px;
+	height:33px;
+	width:628px;
+	clear:both;
+	overflow:hidden;
+	}
+
+#subs02{
+	background-image:url(../images/ny_menusub_bg3.jpg);
+	background-repeat:no-repeat;
+	padding-left:20px;
+	height:33px;
+	width:628px;
+	clear:both;
+	overflow:hidden	
+	}
+	
+#subs01 ul, #subs01extra ul {
+	margin: 0 0 0 5px;
+	padding: 0;
+	}
+
+#subs02 ul {
+	margin: 0 0 0 15px;
+	padding: 0;
+	}
+
+#subs01 ul li, #subs01extra ul li, #subs02 ul li {
+	padding-top: 2px;
+	}
+
+/* layout - main navigation
+================================================*/
+
+
+	
+#subs01 a, #subs01extra a, #subs02 a {
+	color: #000000;
+	display: block;
+	padding-top: 2px;
+	height: 27px;
+	}
+	
+#subs01 a:hover, #subs01extra a:hover {
+	color: #282828;
+	border-bottom: 2px solid #e7f5ff;
+	}
+
+#subs02 a:hover {
+	color: #282828;
+	border-bottom: 2px solid #ffffff;
+	}
+	
+#nav li.selected , #top li.selected {
+	background-color: #d2e8f7;
+	}
+	
+#subs01 li.selected, #subs01extra li.selected {
+	background-color: #e7f5ff;
+	}
+	
+#subs02 li.selected {
+	background-color: #ffffff;
+	}
+
+
+/* Parts
+================================================*/
+#top #parts2 img {
+	margin-left: 5px;
+	}
+
+#top #parts2 {
+	height: 39px;
+	margin-top:49px;
+	margin-bottom:2px;
+	padding-left:9px;
+	padding-top:5px;
+	width:629px;
+	overflow:hidden;
+}
+
+#top #parts2 form{
+	display:inline;	
+}
+
+#top #parts2 input {
+	border: 1px solid #0d293b;
+	}
+
+#top #parts2 #Submit {
+	height: 20px;
+	}
+
+#top #parts2 form#login div{
+	float:left;
+	margin-right:2px
+}
+#top #parts2 form#login input#Submit{
+	
+	/*vertical-align:sub*/
+	
+}
+#top #parts2 form#login div label{
+	display:block;
+}
+#top #parts2 form#language {
+	float:left;
+	padding-top:10px;
+	margin-left:10px
+}
+
+/* Tooltip
+================================================*/
+#text {margin:50px auto; width:500px}
+.hotspot {color:#900; padding-bottom:1px; border-bottom:1px dotted #900;}
+
+#tt {
+	position:absolute; 
+	display:block; 
+	background:url(../images/tt_left.gif) top left no-repeat
+	}
+#tttop {
+	display:block; 
+	height:5px; 
+	margin-left:5px; 
+	background:url(../images/tt_top.gif) top right no-repeat; 
+	overflow:hidden
+	}
+#ttcont {
+	display:block; 
+	padding:2px 12px 3px 7px; 
+	margin-left:5px; 
+	background:#666; 
+	color:#FFF
+	}
+#ttbot {
+	display:block; 
+	height:5px; 
+	margin-left:5px; 
+	background:url(../images/tt_bottom.gif) top right no-repeat; 
+	overflow:hidden
+	}

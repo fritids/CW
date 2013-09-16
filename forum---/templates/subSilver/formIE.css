@@ -1,0 +1,26 @@
+/* Fancy form styles for IE */
+
+.bodyline input, .bodyline textarea, .bodyline select {
+border-top-width : 1px; 
+border-right-width : 1px; 
+border-bottom-width : 1px; 
+border-left-width : 1px;  
+}
+
+.bodyline input { text-indent : 2px; }
+
+.bodyline input.button {
+border-top-width : 1px; 
+border-right-width : 1px; 
+border-bottom-width : 1px; 
+border-left-width : 1px;  
+}
+
+.postbody { line-height: 18px}
+
+
+#top #parts form#login input#Submit{
+	
+	font-family:helvetica
+	
+}

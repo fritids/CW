@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="..Public/Css/style.css" rel="stylesheet" type="text/css">
+<title>
+系统提示</title>
+</head>
+<body>
+<script type="text/JavaScript">
+	function redirect(url) {
+		window.location.replace(url);
+	}
+</script>
+<div class="remsg">
+<h5>
+系统提示</h5>
+	<p>
+				你正试图访问一下不存在的页面	</p>
+	<p class="marginbot">
+			<a href="javascript:history.back(-1);" class="lightlink">如果您的浏览器没有自动跳转，请点击这里</a>
+		</p>
+		<script type="text/JavaScript">
+			window.setTimeout(redirect('javascript:history.back(-1);'),3000);
+		</script></div>
+</body>
+</html>
